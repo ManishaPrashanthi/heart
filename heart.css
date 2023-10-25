@@ -1,0 +1,25 @@
+
+#box{
+    background-color:deeppink;
+    height: 150px;
+    width: 150px;
+    transform: rotate(45deg);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+}
+p{
+    float: left;
+    background-image: radial-gradient(deeppink,deeppink);
+    height: 150px;
+    width: 150px;
+    position:relative;
+    border-radius: 150px;
+    bottom: 98px;
+}
+p~p{
+    right: 73px;
+    bottom: 198px;
+
+}
